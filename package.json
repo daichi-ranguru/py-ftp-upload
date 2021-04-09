@@ -4,7 +4,11 @@
   "description": "",
   "main": "entry.py",
   "scripts": {
+    "upload": "python entry.py",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "py-ftp-upload": "upload"
   },
   "author": "",
   "license": "ISC"
